@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Exercício - Tabelas</title>
+        <link rel="stylesheet" href="css/estilos-tabela.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Exercício de Tabelas HTML</h1>
+
+            <div class="destaque">
+                <h3>Objetivo:</h3>
+                <p>Este template demonstra diferentes tipos de tabelas HTML que você pode usar em seus exercícios.</p>
+            </div>
+
+            <!-- Tabela Simples -->
+            <h2>1. Tabela Simples</h2>
+            <table class="tabela-simples">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Idade</th>
+                        <th>Cidade</th>
+                        <th>Profissão</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>João Silva</td>
+                        <td>25</td>
+                        <td>São Paulo</td>
+                        <td>Desenvolvedor</td>
+                    </tr>
+                    <tr>
+                        <td>Maria Santos</td>
+                        <td>30</td>
+                        <td>Rio de Janeiro</td>
+                        <td>Designer</td>
+                    </tr>
+                    <tr>
+                        <td>Pedro Costa</td>
+                        <td>28</td>
+                        <td>Belo Horizonte</td>
+                        <td>Analista</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Tabela com Colspan e Rowspan -->
+            <h2>2. Tabela com Colspan e Rowspan</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Departamento</th>
+                        <th>Funcionário</th>
+                        <th>Salário</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">TI</td>
+                        <td>Ana Silva</td>
+                        <td>R$ 5.000</td>
+                        <td>Ativo</td>
+                    </tr>
+                    <tr>
+                        <td>Carlos Lima</td>
+                        <td>R$ 4.500</td>
+                        <td>Ativo</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">RH</td>
+                        <td>Fernanda Costa</td>
+                        <td>R$ 3.800</td>
+                        <td>Ativo</td>
+                    </tr>
+                    <tr>
+                        <td>Roberto Santos</td>
+                        <td>R$ 4.200</td>
+                        <td>Férias</td>
+                    </tr>
+                    <tr>
+                        <td>Juliana Oliveira</td>
+                        <td>R$ 3.900</td>
+                        <td>Ativo</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Total de Funcionários</td>
+                        <td>R$ 21.400</td>
+                        <td>5 funcionários</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Tabela de Horários -->
+            <h2>3. Tabela de Horários</h2>
+            <div class="tabela-responsiva">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Horário</th>
+                            <th>Segunda</th>
+                            <th>Terça</th>
+                            <th>Quarta</th>
+                            <th>Quinta</th>
+                            <th>Sexta</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>08:00 - 09:00</td>
+                            <td>Matemática</td>
+                            <td>Português</td>
+                            <td>História</td>
+                            <td>Geografia</td>
+                            <td>Ciências</td>
+                        </tr>
+                        <tr>
+                            <td>09:00 - 10:00</td>
+                            <td>Português</td>
+                            <td>Matemática</td>
+                            <td>Geografia</td>
+                            <td>História</td>
+                            <td>Educação Física</td>
+                        </tr>
+                        <tr>
+                            <td>10:00 - 11:00</td>
+                            <td>História</td>
+                            <td>Ciências</td>
+                            <td>Matemática</td>
+                            <td>Português</td>
+                            <td>Arte</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Tabela de Produtos -->
+            <h2>4. Tabela de Produtos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Produto</th>
+                        <th>Categoria</th>
+                        <th>Preço</th>
+                        <th>Estoque</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>001</td>
+                        <td>Notebook Dell</td>
+                        <td>Eletrônicos</td>
+                        <td>R$ 3.500</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>002</td>
+                        <td>Mouse Wireless</td>
+                        <td>Periféricos</td>
+                        <td>R$ 89</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>003</td>
+                        <td>Teclado Mecânico</td>
+                        <td>Periféricos</td>
+                        <td>R$ 299</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>004</td>
+                        <td>Monitor 24"</td>
+                        <td>Eletrônicos</td>
+                        <td>R$ 899</td>
+                        <td>8</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+
+</html>

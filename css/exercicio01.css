@@ -1,0 +1,14 @@
+/* CSS básico para exercício 01 */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Aqui você pode adicionar mais estilos conforme praticar! */

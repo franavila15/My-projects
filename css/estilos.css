@@ -1,0 +1,25 @@
+/* CSS básico para exercícios */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    color: #007bff;
+}
+
+.destaque {
+    background-color: #f0f8ff;
+    padding: 15px;
+    border-left: 4px solid #007bff;
+}

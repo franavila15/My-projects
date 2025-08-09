@@ -1,0 +1,24 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "emmet.includeLanguages": {
+        "html": "html"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "files.associations": {
+        "*.html": "html"
+    },
+    "html.format.enable": true,
+    "html.format.wrapAttributes": "auto",
+    "html.format.wrapLineLength": 120,
+    "html.format.indentInnerHtml": true,
+    "html.format.maxPreserveNewLines": 2,
+    "html.format.unformatted": "pre,code,textarea",
+    "html.format.contentUnformatted": "pre,code,textarea",
+    "html.format.extraLiners": "head,body,/html",
+    "liveServer.settings.port": 5501
+}

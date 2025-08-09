@@ -1,0 +1,47 @@
+/* CSS básico para tabelas */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    color: #007bff;
+}
+
+.destaque {
+    background-color: #f0f8ff;
+    padding: 15px;
+    border-left: 4px solid #007bff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+.tabela-responsiva {
+    overflow-x: auto;
+}
